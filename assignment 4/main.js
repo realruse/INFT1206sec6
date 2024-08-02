@@ -21,17 +21,22 @@ function result() {
 
     let newStory = storyText
 
+    const xItem = randomValueFromArray(insertX);
+    const yItem = randomValueFromArray(insertY);
+    const zItem = randomValueFromArray(insertZ);
+
   if(customName.value !== '') {
     const name = customName.value;
-
+    newStory = newStory.replaceAll("Bob", name);
   }
 
   if(document.getElementById("uk").checked) {
     const weight = Math.round(300);
     const temperature =  Math.round(94);
-
+    newStory = newStory.replaceAll("94 farenheight", temperature);
+    newStory = newStory.replaceAll("300 pounds", weight);
   }
 
-  story.textContent = ;
+  story.textContent = newStory;
   story.style.visibility = 'visible';
 }
