@@ -1,3 +1,10 @@
+/*
+	Name: Daniel Bholla
+	File: main.js
+	Date: 02 August 2024
+	Javascript file for a4p3 - Coloured ball generator
+	*/
+
 // setup canvas
 
 const canvas = document.querySelector("canvas");

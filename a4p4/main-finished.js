@@ -1,3 +1,10 @@
+/*
+	Name: Daniel Bholla
+	File: main-finished.js
+	Date: 02 August 2024
+	Javascript file for a4p4 - Adding evilcircle and other elements
+	*/
+
 // set up canvas
 
 const canvas = document.querySelector("canvas");

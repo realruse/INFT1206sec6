@@ -1,3 +1,10 @@
+/*
+	Name: Daniel Bholla
+	File: main.js
+	Date: 02 August 2024
+	Javascript file for a4p1 - Silly story generator
+	*/
+
 const customName = document.getElementById('customname');
 const randomize = document.querySelector('.randomize');
 const story = document.querySelector('.story');

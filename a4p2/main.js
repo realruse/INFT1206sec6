@@ -1,3 +1,10 @@
+/*
+	Name: Daniel Bholla
+	File: main.js
+	Date: 02 August 2024
+	Javascript file for a4p2 - Image gallery
+	*/
+
 const displayedImage = document.querySelector('.displayed-img');
 const thumbBar = document.querySelector('.thumb-bar');
 
