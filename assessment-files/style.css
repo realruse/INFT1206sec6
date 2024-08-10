@@ -51,7 +51,7 @@ p, li, table {
 
 /* || header layout */
 
-div[class="nav"], article, footer, .secondary {
+nav[class="nav"], article, footer, .secondary {
   background-color: white;
 }
 
