@@ -1,3 +1,15 @@
+/*
+
+         Name: Daniel Bholla
+
+         File: main.js
+
+         Date: August 9 2024
+
+         Assignment 5 index file
+*/
+
+
 // functionality for showing/hiding the comments section
 
 const showHideBtn = document.querySelector('.show-hide');
